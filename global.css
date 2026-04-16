@@ -6,14 +6,7 @@
   font-style: normal;
    }
 
-/* body {
-  font-family: verdana, arial, sans-serif;
-  font-size: 12px;
-  line-height: 1.5;
-  margin: 0;
-  padding: 0;
-  background: BurlyWood ;} */
-
+<!-- the body information has my font info as well as my background info -->
 body {
   font-family: 'OpenDyslexic-Regular', verdana, arial, sans-serif;
   font-size: 12px;
@@ -21,9 +14,9 @@ body {
   line-height: 1.5;
   margin: 0;
   padding: 0;
-  background: white url(images/background.png) ;}
+  background: white url(images/background.png) ;} <!-- this is my website background. it is repeatable so the screen size doesn't matter -->
 
-h1, h2, h3 {font-family: 'OpenDyslexic-Regular';
+h1, h2, h3 {font-family: 'OpenDyslexic-Regular'; <!-- this is my header font information -->
   font-weight: normal; }
   h1 {font-size: 160%; }
   h2 {font-size: 160%; }
@@ -40,10 +33,7 @@ ol {
   margin-left: 30px;
   }
 
-/* img { padding: 4px;
-  border-width: 1px;
-  border-style: solid;
-  border-color: white; } */
+<!-- below is my table information that affects all tables on my website -->
 
 table, th, td {
   border: 1px solid black;
@@ -58,6 +48,8 @@ table {
 th, td {
   background-color: #d9ead2;
   font-size: 110% }   
+
+<!-- this is how much space there is around my photos, i shrank it so i could fit more on my page -->
 
 img {
   padding: 2px;
@@ -85,6 +77,8 @@ a:visited {color: #4a2885; }
 
 a:hover, a:focus, a:active { background-color: #fff5e8; color: #800080; border-bottom-color: #fdebcf; }
 
+<!-- below is the information on the background for the inner part of my website -->
+
 div#wrapper {
   width: 860px;
   margin-left: auto;
@@ -111,6 +105,8 @@ header {
 header h1, header p {
   text-indent: -9999999px; }
 
+<!-- these are the header images for each page -->
+
 .home header {
   background: #d9ead2 url(images/home.png) no-repeat; }
 
@@ -122,6 +118,8 @@ header h1, header p {
 
 .contact header {
   background: #d9ead2 url(images/contact.png) no-repeat; }
+
+<!-- these tags make the text wrap nicer so that it doesnt go off the page -->
 
 .home p {
   display: block;
