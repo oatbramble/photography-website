@@ -141,6 +141,8 @@ header h1, header p {
   margin-right: 40px;
   text-align: justify; }
 
+/* i can apply the center class to an image to center it. i have done this with the photo in my about file */
+
 .center {
   display: block;
   margin-left: auto;
